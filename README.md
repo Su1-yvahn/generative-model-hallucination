@@ -143,7 +143,7 @@ The project uses:
 - Sentence Transformer — semantic evidence retrieval
 - FAISS — offline Wikipedia retrieval
 - DeBERTa — fine-tuned claim verification
-- OpenAI API — prompt-based claim verification
+- OpenAI API — ground truth label
 
 The fine-tuned model weights are stored using Git LFS.
 
