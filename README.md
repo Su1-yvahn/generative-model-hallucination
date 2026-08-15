@@ -57,21 +57,29 @@ Two verification approaches are investigated:
 
     Code/
     ├── generate_phi_3_answer/
-    │   ├── 01_Data_Preparation_colab.ipynb
-    │   ├── 01_Data_Preparation_local.ipynb
-    │   ├── 02_LLM_Interface_Phi_3_Mini_colab.ipynb
-    │   └── 02_LLM_Interface_Phi_3_Mini_local.ipynb
-    │
     ├── method_1_reference_based/
     │   └── Phi3_Hallucination_Detection.ipynb
     │
     └── method_2_retrieval_based/
         ├── building_procedures/
+        |   ├── fine_tuned_judge_training/
+        |   |   └── FEVER_DeBERTa_Judge_Training.ipynb
+        |   |
+        |   └── offline_FAISS_index_building/
+        |   |   └── Wikipedia_Passage_FAISS.ipynb
+        |   |
+        |   └── 01_Prompt_Claim_Extraction.ipynb
+        |   └── 02_Wikipedia_Evidence_retrieval_by_FAISS.ipynb
+        |   └── 02_Wikipedia_Evidence_Retrieval_by_online_search.ipynb
+        |   └── 03_Prompt_Judge_and_Aggregator.ipynb
+        |
         └── final_pipeline/
-
-    Data/
-    Results/
-    Paper work/
+            ├── fever_deberta_judge/
+            |   └── model.safetensors
+            ├── WIKI_resource/
+            |   └── wiki_retrieval_output/
+            |       └── wiki_passages.faiss
+            └── Final_Pipeline.ipynb
     requirements.txt
     README.md
 
