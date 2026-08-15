@@ -1,0 +1,12 @@
+pandas
+numpy
+torch
+transformers
+sentence-transformers
+scikit-learn
+faiss-cpu
+datasets
+accelerate
+tqdm
+requests
+openai
