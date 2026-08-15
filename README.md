@@ -168,10 +168,6 @@ from each detection method.
 
 Experimental outputs are available in:
 
-    Results/
-
-and
-
     Code/method_2_retrieval_based/final_pipeline/outputs/
 
 The project compares reference-based detection with retrieval-based 
